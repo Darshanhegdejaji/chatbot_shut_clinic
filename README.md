@@ -21,12 +21,12 @@ These instructions will guide you on setting up and running the Rasa chatbot loc
    
 2. Install the required dependencies:
     ```bash
-      pip install -r requirements.txt
-      Note: If requirements.txt does not exist, you can install Rasa directly:
-      pip install rasa
+   pip install -r requirements.txt
+   Note: If requirements.txt does not exist, you can install Rasa directly:
+   pip install rasa
 3. Train the model:
     ```bash
-        rasa train
+    rasa train
 4. Running the Chatbot
     ```bash
-      rasa shell
+    rasa shell
