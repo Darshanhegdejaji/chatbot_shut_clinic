@@ -1,0 +1,392 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - howdy
+    - hey there
+    - greetings
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+    - catch you later
+    - farewell
+    - talk to you later
+    - see you soon
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_gambling_addiction
+  examples: |
+    - What is Gambling Addiction?
+    - Can you explain what gambling addiction is?
+    - What does it mean to be addicted to gambling?
+    - How would you define gambling addiction?
+    - Can you tell me more about gambling addiction?
+    - What are the characteristics of gambling addiction?
+
+- intent: ask_gambling_addiction_signs
+  examples: |
+    - What can indicate that I may be addicted to Gambling?
+    - How can I tell if I'm addicted to gambling?
+    - What are the warning signs of gambling addiction?
+    - Are there symptoms that suggest I have a gambling addiction?
+    - How can I recognize if I'm struggling with gambling addiction?
+    - What should I look for to see if I have a gambling problem?
+
+- intent: ask_gambling_addictive_nature
+  examples: |
+    - Why is Gambling so easily addictive?
+    - What makes gambling so addictive?
+    - What factors contribute to the addictive nature of gambling?
+    - Why do people find it hard to stop gambling?
+    - What psychological aspects make gambling addictive?
+    - Can you explain the addictive qualities of gambling?
+
+- intent: ask_gambling_addiction_susceptibility
+  examples: |
+    - How do I know if I am susceptible to developing Gambling Addiction?
+    - What are the chances that I might develop a gambling addiction?
+    - How can I determine my risk for gambling addiction?
+    - Are some people more likely to develop a gambling addiction than others?
+    - What factors influence the likelihood of developing gambling addiction?
+    - How can I assess my vulnerability to gambling addiction?
+
+- intent: ask_gambling_addiction_treatment
+  examples: |
+    - What is the treatment procedure for Gambling Addiction?
+    - How can gambling addiction be treated?
+    - What options are available for treating gambling addiction?
+    - Can you describe the steps involved in treating gambling addiction?
+    - What therapies are effective for gambling addiction?
+    - How do professionals approach gambling addiction treatment?
+
+- intent: ask_behavioral_addiction
+  examples: |
+    - What is behavioral addiction?
+    - Can you define behavioral addiction?
+    - How does behavioral addiction differ from substance addiction?
+    - What are some examples of behavioral addictions?
+    - Can you explain the concept of behavioral addiction?
+    - What defines a behavioral addiction?
+
+- intent: ask_behavioral_addiction_types
+  examples: |
+    - What are the types of behavioral addictions?
+    - Can you list the different types of behavioral addictions?
+    - How many kinds of behavioral addictions are there?
+    - What are common examples of behavioral addictions?
+    - Can you provide a list of behavioral addiction categories?
+    - What are the various forms of behavioral addiction?
+
+- intent: ask_addiction_signs
+  examples: |
+    - How do I know if I'm addicted?
+    - What are the signs that I might be addicted?
+    - How can I recognize signs of addiction?
+    - What symptoms should I watch for to determine addiction?
+    - Are there indicators that suggest I may be dealing with addiction?
+    - What are the common signs of addiction I should be aware of?
+
+- intent: ask_mental_health_screen_use
+  examples: |
+    - Are my mental health issues due to excessive screen use?
+    - Can too much screen time affect my mental health?
+    - Is there a connection between screen time and mental health?
+    - How can excessive screen use impact my mental well-being?
+    - What are the mental health effects of prolonged screen use?
+    - Can screen addiction lead to mental health problems?
+
+- intent: ask_screen_addiction_help
+  examples: |
+    - I think I'm addicted to screens. What do I do now?
+    - What should I do if I feel addicted to screens?
+    - How can I get help for my screen addiction?
+    - What steps can I take to overcome screen addiction?
+    - Can you provide guidance on managing screen addiction?
+    - What are the resources available for screen addiction help?
+
+- intent: ask_shut_clinic_services
+  examples: |
+    - What services are provided by the SHUT clinic?
+    - Can you tell me about the services offered by the SHUT clinic?
+    - What types of support does the SHUT clinic offer?
+    - Are there specific treatments available at the SHUT clinic?
+    - What kind of programs can I find at the SHUT clinic?
+    - Can you list the services available through the SHUT clinic?
+
+- intent: ask_shut_clinic_appointment
+  examples: |
+    - How do I take an appointment at the SHUT Clinic?
+    - What is the process for booking an appointment at the SHUT Clinic?
+    - How can I schedule a visit to the SHUT clinic?
+    - What steps should I follow to make an appointment at the SHUT clinic?
+    - Can I book an appointment online at the SHUT Clinic?
+    - What information do I need to schedule an appointment at the SHUT clinic?
+
+- intent: ask_shut_clinic_rehabilitation
+  examples: |
+    - Does SHUT clinic offer any rehabilitation facility?
+    - Is rehabilitation available at the SHUT Clinic?
+    - Can I receive rehabilitation services at the SHUT clinic?
+    - What rehabilitation programs are offered by the SHUT clinic?
+    - Are there specialized rehabilitation services at the SHUT clinic?
+    - How does the SHUT clinic approach rehabilitation?
+
+- intent: ask_digital_hygiene
+  examples: |
+    - What is digital hygiene?
+    - Can you explain what digital hygiene means?
+    - How can I practice good digital hygiene?
+    - What does maintaining digital hygiene involve?
+    - Why is digital hygiene important?
+    - Can you give examples of good digital hygiene practices?
+
+- intent: ask_shut_clinic_age_groups
+  examples: |
+    - Can children or adolescents seek help?
+    - Is the SHUT Clinic available for children and teens?
+    - What age groups can access services at the SHUT clinic?
+    - Are there programs for youth at the SHUT clinic?
+    - Can minors receive help at the SHUT clinic?
+    - Does the SHUT clinic cater to different age demographics?
+
+- intent: ask_cybersecurity_threats
+  examples: |
+    - What are the emerging cybersecurity threats I should be aware of?
+    - Can you tell me about new cybersecurity threats?
+    - What current cybersecurity threats should I keep an eye on?
+    - What recent developments in cybersecurity should I know about?
+    - What are the latest trends in cybersecurity threats?
+    - How can I stay informed about emerging cybersecurity risks?
+
+- intent: ask_child_gamer_threats
+  examples: |
+    - What cyber threats can a child gamer face?
+    - What risks do child gamers face online?
+    - How can child gamers protect themselves from online threats?
+    - What are common dangers for children who game online?
+    - What precautions should child gamers take to stay safe?
+    - Can you explain the cyber threats specific to child gamers?
+
+- intent: ask_cyberbullying_signs
+  examples: |
+    - How will I understand if my child is going through cyber bullying?
+    - What are the signs that my child is being cyber bullied?
+    - How can I identify if my child is a victim of cyberbullying?
+    - What should I look for to see if my child is being bullied online?
+    - Are there indicators that my child is facing cyberbullying?
+    - What symptoms might suggest my child is experiencing cyber bullying?
+
+- intent: ask_child_cybercrime_victim
+  examples: |
+    - What to do if your child is a victim of cybercrime?
+    - How should I handle it if my child is targeted by cybercrime?
+    - What steps should I take if my child experiences cybercrime?
+    - How can I support my child if they are a victim of cybercrime?
+    - What resources are available for children affected by cybercrime?
+    - What actions can I take if my child is involved in a cybercrime incident?
+
+- intent: ask_cyber_safety_practices
+  examples: |
+    - What are the best practices for staying cyber safe?
+    - How can I ensure I am practicing good cyber safety?
+    - What tips can you provide for maintaining cybersecurity?
+    - How can I protect myself online?
+    - What should I do to enhance my cyber safety?
+    - Can you suggest effective cyber safety strategies?
+
+- intent: ask_social_media_addiction
+  examples: |
+    - What is social media addiction?
+    - Can you explain social media addiction?
+    - How does social media addiction develop?
+    - What are the effects of being addicted to social media?
+    - Can you describe the phenomenon of social media addiction?
+    - What constitutes social media addiction?
+
+- intent: ask_social_media_addiction_signs
+  examples: |
+    - How do I know if I'm addicted to social media?
+    - What are the signs of social media addiction?
+    - How can I tell if I have a social media addiction?
+    - What symptoms indicate I might be addicted to social media?
+    - Are there specific behaviors that show social media addiction?
+    - How can I recognize if I'm struggling with social media usage?
+
+- intent: ask_social_media_addiction_tips
+  examples: |
+    - What are some tips for overcoming social media addiction?
+    - How can I reduce my social media addiction?
+    - What strategies can help me cut back on social media use?
+    - How can I manage my social media usage effectively?
+    - What advice can you give to someone trying to overcome social media addiction?
+    - Are there effective methods for reducing time spent on social media?
+
+- intent: ask_social_media_fatigue
+  examples: |
+    - What is Social Media Fatigue?
+    - Can you explain what social media fatigue is?
+    - How can I recognize signs of social media fatigue?
+    - What causes social media fatigue?
+    - What can I do to combat social media fatigue?
+    - How does social media fatigue affect mental health?
+
+- intent: ask_social_media_addiction_treatment
+  examples: |
+    - What is the treatment procedure for Social Media Addiction?
+    - How is social media addiction treated?
+    - What are the treatment options for social media addiction?
+    - Can you describe the steps involved in treating social media addiction?
+    - What approaches are used to help individuals with social media addiction?
+    - How do professionals address social media addiction?
+
+- intent: ask_gaming_disorder_prevalence
+  examples: |
+    - How prevalent is Internet Gaming Disorder (IGD)?
+    - How common is Internet Gaming Disorder?
+    - What is the incidence rate of gaming disorder?
+    - Are there statistics on the prevalence of gaming addiction?
+    - How widespread is the issue of Internet Gaming Disorder?
+    - Can you provide data on gaming disorder prevalence?
+
+- intent: ask_gaming_disorder_treatment
+  examples: |
+    - What are common treatment approaches for IGD?
+    - How can Internet Gaming Disorder be treated?
+    - What therapies are effective for treating gaming disorder?
+    - What strategies are used to address Internet Gaming Disorder?
+    - How do clinicians treat gaming addiction?
+    - What is the best way to manage Internet Gaming Disorder?
+
+- intent: ask_gaming_addiction_components
+  examples: |
+    - What are the key components of gaming addiction?
+    - What makes gaming addictive?
+    - How can I identify the elements of gaming addiction?
+    - What factors contribute to gaming addiction?
+    - What characteristics define gaming addiction?
+    - Can you explain the core aspects of gaming addiction?
+
+- intent: ask_gaming_harm
+  examples: |
+    - How does excessive gaming cause harm?
+    - What are the negative effects of excessive gaming?
+    - What issues arise from spending too much time gaming?
+    - How can gaming negatively impact my life?
+    - What are the risks associated with excessive gaming?
+    - Can you describe the harmful effects of gaming addiction?
+
+- intent: ask_parents_gaming_disorder_prevention
+  examples: |
+    - What role do parents play in preventing IGD?
+    - How can parents help prevent Internet Gaming Disorder?
+    - What can parents do to reduce the risk of gaming addiction in children?
+    - How should parents approach the issue of gaming disorder prevention?
+    - What strategies can parents implement to prevent gaming addiction?
+    - How can parents support healthy gaming habits in their children?
+
+- intent: ask_regulate_child_internet
+  examples: |
+    - How can I regulate my child’s internet use in a healthy way?
+    - What steps can I take to manage my child's internet use?
+    - How can I monitor my child’s internet activity effectively?
+    - What guidelines should I follow to ensure healthy internet use for my child?
+    - How can I set boundaries for my child's online activity?
+    - What are the best practices for regulating internet use among kids?
+
+- intent: ask_healthy_screen_time
+  examples: |
+    - How much screen time is healthy for children?
+    - What is the recommended amount of screen time for kids?
+    - How can I determine the right amount of screen time for my child?
+    - What guidelines exist for healthy screen time limits for kids?
+    - How should I approach screen time for children?
+    - What is considered excessive screen time for children?
+
+- intent: ask_suspect_child_addiction
+  examples: |
+    - What should I do if I suspect my child is addicted to gaming or the internet?
+    - How do I handle it if I think my child is addicted to gaming?
+    - What steps can I take if I believe my child is experiencing gaming addiction?
+    - How should I approach my child if I suspect they have a gaming problem?
+    - What actions can I take if I think my child is spending too much time online?
+    - How can I address my concerns about my child's gaming habits?
+
+- intent: ask_model_healthy_tech_use
+  examples: |
+    - How can I model healthy technology use as a parent?
+    - What are some ways parents can demonstrate healthy tech habits?
+    - How should I use technology to set an example for my children?
+    - What practices can I adopt to encourage healthy tech use in my family?
+    - How can I promote balanced technology use in my household?
+    - What strategies can I use to model good tech habits for my kids?
+
+- intent: ask_child_refuses_screen_time
+  examples: |
+    - What should I do if my child refuses to cut down on screen time?
+    - How do I handle it if my child doesn't want to reduce screen time?
+    - What strategies can I use if my child resists limiting screen time?
+    - How can I effectively manage my child's screen time when they refuse?
+    - What steps should I take if my child fights against reducing screen usage?
+    - How can I approach my child's reluctance to limit their screen time?
+
+- intent: ask_porn_addiction
+  examples: |
+    - What is pornography addiction?
+    - Can you explain pornography addiction?
+    - How does one become addicted to pornography?
+    - What constitutes pornography addiction?
+    - What are the characteristics of someone with porn addiction?
+    - Can you define what it means to be addicted to pornography?
+
+- intent: ask_porn_addiction_potential
+  examples: |
+    - Can watching pornography lead to addiction?
+    - Is it possible to become addicted to pornography?
+    - How likely is it to develop an addiction from watching porn?
+    - What are the risks of developing a pornography addiction?
+    - Can frequent porn use result in addiction?
+    - How can one recognize the potential for pornography addiction?
+
+- intent: ask_porn_addiction_recognition
+  examples: |
+    - Is pornography addiction recognized as a mental health disorder?
+    - Is porn addiction considered a mental health issue?
+    - How is pornography addiction classified in mental health?
+    - Are there official guidelines for recognizing porn addiction?
+    - What distinguishes pornography addiction as a mental health concern?
+    - Can you explain the mental health implications of porn addiction?
+
+- intent: ask_porn_addiction_signs
+  examples: |
+    - What are the signs and symptoms of pornography addiction?
+    - How can I tell if someone is addicted to pornography?
+    - What behaviors indicate a possible porn addiction?
+    - How can one recognize the signs of being addicted to pornography?
+    - Are there specific indicators of pornography addiction I should look for?
+    - What symptoms are common in individuals with porn addiction?
+
+- intent: ask_porn_addiction_relationships
+  examples: |
+    - How does pornography addiction affect relationships and intimacy?
+    - What impact does porn addiction have on relationships?
+    - Can pornography addiction lead to relationship problems?
+    - How might porn addiction influence intimate relationships?
+    - What are the effects of porn addiction on couples?
+    - How does being addicted to pornography affect romantic relationships?

@@ -1,0 +1,212 @@
+version: "3.1"
+
+stories:
+- story: story_greet
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: story_goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: story_gambling_addiction
+  steps:
+    - intent: ask_gambling_addiction
+    - action: utter_gambling_addiction
+
+- story: story_gambling_addiction_signs
+  steps:
+    - intent: ask_gambling_addiction_signs
+    - action: utter_gambling_addiction_signs
+
+- story: story_gambling_addictive_nature
+  steps:
+    - intent: ask_gambling_addictive_nature
+    - action: utter_gambling_addictive_nature
+
+- story: story_gambling_addiction_susceptibility
+  steps:
+    - intent: ask_gambling_addiction_susceptibility
+    - action: utter_gambling_addiction_susceptibility
+
+- story: story_gambling_addiction_treatment
+  steps:
+    - intent: ask_gambling_addiction_treatment
+    - action: utter_gambling_addiction_treatment
+
+- story: story_behavioral_addiction
+  steps:
+    - intent: ask_behavioral_addiction
+    - action: utter_behavioral_addiction
+
+- story: story_behavioral_addiction_types
+  steps:
+    - intent: ask_behavioral_addiction_types
+    - action: utter_behavioral_addiction_types
+
+- story: story_addiction_signs
+  steps:
+    - intent: ask_addiction_signs
+    - action: utter_addiction_signs
+
+- story: story_mental_health_screen_use
+  steps:
+    - intent: ask_mental_health_screen_use
+    - action: utter_mental_health_screen_use
+
+- story: story_screen_addiction_help
+  steps:
+    - intent: ask_screen_addiction_help
+    - action: utter_screen_addiction_help
+
+- story: story_shut_clinic_services
+  steps:
+    - intent: ask_shut_clinic_services
+    - action: utter_shut_clinic_services
+
+- story: story_shut_clinic_appointment
+  steps:
+    - intent: ask_shut_clinic_appointment
+    - action: utter_shut_clinic_appointment
+
+- story: story_shut_clinic_rehabilitation
+  steps:
+    - intent: ask_shut_clinic_rehabilitation
+    - action: utter_shut_clinic_rehabilitation
+
+- story: story_digital_hygiene
+  steps:
+    - intent: ask_digital_hygiene
+    - action: utter_digital_hygiene
+
+- story: story_shut_clinic_age_groups
+  steps:
+    - intent: ask_shut_clinic_age_groups
+    - action: utter_shut_clinic_age_groups
+
+- story: story_cybersecurity_threats
+  steps:
+    - intent: ask_cybersecurity_threats
+    - action: utter_cybersecurity_threats
+
+- story: story_child_gamer_threats
+  steps:
+    - intent: ask_child_gamer_threats
+    - action: utter_child_gamer_threats
+
+- story: story_cyberbullying_signs
+  steps:
+    - intent: ask_cyberbullying_signs
+    - action: utter_cyberbullying_signs
+
+- story: story_child_cybercrime_victim
+  steps:
+    - intent: ask_child_cybercrime_victim
+    - action: utter_child_cybercrime_victim
+
+- story: story_cyber_safety_practices
+  steps:
+    - intent: ask_cyber_safety_practices
+    - action: utter_cyber_safety_practices
+
+- story: story_social_media_addiction
+  steps:
+    - intent: ask_social_media_addiction
+    - action: utter_social_media_addiction
+
+- story: story_social_media_addiction_signs
+  steps:
+    - intent: ask_social_media_addiction_signs
+    - action: utter_social_media_addiction_signs
+
+- story: story_social_media_addiction_tips
+  steps:
+    - intent: ask_social_media_addiction_tips
+    - action: utter_social_media_addiction_tips
+
+- story: story_social_media_fatigue
+  steps:
+    - intent: ask_social_media_fatigue
+    - action: utter_social_media_fatigue
+
+- story: story_social_media_addiction_treatment
+  steps:
+    - intent: ask_social_media_addiction_treatment
+    - action: utter_social_media_addiction_treatment
+
+- story: story_gaming_disorder_prevalence
+  steps:
+    - intent: ask_gaming_disorder_prevalence
+    - action: utter_gaming_disorder_prevalence
+
+- story: story_gaming_disorder_treatment
+  steps:
+    - intent: ask_gaming_disorder_treatment
+    - action: utter_gaming_disorder_treatment
+
+- story: story_gaming_addiction_components
+  steps:
+    - intent: ask_gaming_addiction_components
+    - action: utter_gaming_addiction_components
+
+- story: story_gaming_harm
+  steps:
+    - intent: ask_gaming_harm
+    - action: utter_gaming_harm
+
+- story: story_parents_gaming_disorder_prevention
+  steps:
+    - intent: ask_parents_gaming_disorder_prevention
+    - action: utter_parents_gaming_disorder_prevention
+
+- story: story_regulate_child_internet
+  steps:
+    - intent: ask_regulate_child_internet
+    - action: utter_regulate_child_internet
+
+- story: story_healthy_screen_time
+  steps:
+    - intent: ask_healthy_screen_time
+    - action: utter_healthy_screen_time
+
+- story: story_suspect_child_addiction
+  steps:
+    - intent: ask_suspect_child_addiction
+    - action: utter_suspect_child_addiction
+
+- story: story_model_healthy_tech_use
+  steps:
+    - intent: ask_model_healthy_tech_use
+    - action: utter_model_healthy_tech_use
+
+- story: story_child_refuses_screen_time
+  steps:
+    - intent: ask_child_refuses_screen_time
+    - action: utter_child_refuses_screen_time
+
+- story: story_porn_addiction
+  steps:
+    - intent: ask_porn_addiction
+    - action: utter_porn_addiction
+
+- story: story_porn_addiction_potential
+  steps:
+    - intent: ask_porn_addiction_potential
+    - action: utter_porn_addiction_potential
+
+- story: story_porn_addiction_recognition
+  steps:
+    - intent: ask_porn_addiction_recognition
+    - action: utter_porn_addiction_recognition
+
+- story: story_porn_addiction_signs
+  steps:
+    - intent: ask_porn_addiction_signs
+    - action: utter_porn_addiction_signs
+
+- story: story_porn_addiction_relationships
+  steps:
+    - intent: ask_porn_addiction_relationships
+    - action: utter_porn_addiction_relationships

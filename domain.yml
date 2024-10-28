@@ -1,0 +1,179 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_gambling_addiction
+  - ask_gambling_addiction_signs
+  - ask_gambling_addictive_nature
+  - ask_gambling_addiction_susceptibility
+  - ask_gambling_addiction_treatment
+  - ask_behavioral_addiction
+  - ask_behavioral_addiction_types
+  - ask_addiction_signs
+  - ask_mental_health_screen_use
+  - ask_screen_addiction_help
+  - ask_shut_clinic_services
+  - ask_shut_clinic_appointment
+  - ask_shut_clinic_rehabilitation
+  - ask_digital_hygiene
+  - ask_shut_clinic_age_groups
+  - ask_cybersecurity_threats
+  - ask_child_gamer_threats
+  - ask_cyberbullying_signs
+  - ask_child_cybercrime_victim
+  - ask_cyber_safety_practices
+  - ask_social_media_addiction
+  - ask_social_media_addiction_signs
+  - ask_social_media_addiction_tips
+  - ask_social_media_fatigue
+  - ask_social_media_addiction_treatment
+  - ask_gaming_disorder_prevalence
+  - ask_gaming_disorder_treatment
+  - ask_gaming_addiction_components
+  - ask_gaming_harm
+  - ask_parents_gaming_disorder_prevention
+  - ask_regulate_child_internet
+  - ask_healthy_screen_time
+  - ask_suspect_child_addiction
+  - ask_model_healthy_tech_use
+  - ask_child_refuses_screen_time
+  - ask_porn_addiction
+  - ask_porn_addiction_potential
+  - ask_porn_addiction_recognition
+  - ask_porn_addiction_signs
+  - ask_porn_addiction_relationships
+
+responses:
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that. Could you please rephrase or ask a different question?"
+
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Take care."
+
+  utter_gambling_addiction:
+    - text: "Gambling Addiction/Gambling Disorder is a behavioural disorder that involves the inability to control gambling behaviour, which can have multiple financial, legal and health consequences. "
+
+  utter_gambling_addiction_signs:
+    - text: "Gambling Disorder might be indicated by several signs, which can include the need to engage in gambling and wagering despite it leading to multiple problems in several areas of life. It might be difficult t control gambling behaviour, and you may also have multiple thoughts about gambling. You may expereince the need to gamble, and may also often gamble when you're feeling distress. If you often lie or attempt to hide the extent of gambling, this may also indicate an addiction towards the same."
+
+  utter_gambling_addictive_nature:
+    - text: "Gambling can trigger the brain's reward system, that leads to the release of hormones that may reinforce the behaviour and lead to cravings similar to those seen in substance use disorders. Gambling also involves variable rewards, which also makes the process appealing. furthermore, this couple with the easy accessibility and peer pressure involved with gambling can make it easily addictive. "
+
+  utter_gambling_addiction_susceptibility:
+    - text: "Gambling Addiction may be characterised by various risk factors, which can include the age at which one started gambling (an earlier start may indicate higher susceptibility), age (young adults and adolesecents may indicate higher susceptibility), gender (male gender may indicate higher susceptibility), and difficult social envitornemnts and peer pressure"
+
+  utter_gambling_addiction_treatment:
+    - text: "Treatment for Gambling Addiction typically involves a holistic approach, including medication to manage mood or comorbid factors, therapeutic intervention, and self-help groups."
+
+  utter_behavioral_addiction:
+    - text: "Behavioral addiction is a compulsion to engage in rewarding behaviours despite experiencing negative consequences. This is similar to substance addiction. Individuals are unable to resist urges that lead to harmful outcomes, such as in gambling or excessive internet use. Common types of behavioral addictions include gambling addiction, internet addiction, gaming addiction, and sex addiction, each with unique challenges and treatment approaches"
+
+  utter_behavioral_addiction_types:
+    - text: "Common types of behavioral addictions include gambling addiction, internet addiction, gaming addiction, and sex addiction, each with unique challenges and treatment approaches. Lot of these are related to technology use and fall under the umbrella term 'Technology Addiction'. Gambling addiction, for instance, is characterized by an uncontrollable urge to gamble, resulting in significant impairment or distress. It can disrupt daily functioning and overall well-being. Understanding these addictions is crucial for developing awareness and prevention strategies, as well as for treatment options for affected individuals"
+
+  utter_addiction_signs:
+    - text: "To determine if you are struggling with addiction, it is essential to recognize several key signs summarised as the 5 Cs: Craving for the behaviour, loss of Control over usage, Compulsive use, using the behaviour as a way to Cope with difficulties and continued engagement despite experiencing negative Consequences. Additionally, you may notice specific behavioural patterns such as neglecting responsibilities or social withdrawal"
+
+  utter_mental_health_screen_use:
+    - text: "Excessive screen use may contribute to mental health issues. Increased screen time correlates with a rise in mental health symptoms, such as emotional difficulties and behavioural problems. Specifically, high screen time has been linked to the development of emotional symptoms in younger children and hyperactivity and conduct problems in older children over time. In summary, if you are experiencing mental health issues, it is plausible that excessive screen use could be a contributing factor. However, people with other mental health issues are also likely to use the screen excessively. It is best to consult a mental health professional to determine the probable reasons for development"
+
+  utter_screen_addiction_help:
+    - text: "If you think you are addicted, there are multiple options open to you. You can try to manage your screen use - try to limit screen use in small, increasing amounts; start noting the triggers for screen use - emotions (boredom, loneliness, sadness, tiredness, frustration, etc.) or situations (coming home from work, during meals, laying down to sleep, etc.); replace screen use with offline activities/healthier behaviours. Enlist the help of a loved one, if possible. If strategies to manage it yourself don't work, seek professional help from a mental health professional, i.e. a clinical psychologist, psychiatrist or psychiatric social worker"
+
+  utter_shut_clinic_services:
+    - text: "Service for Healthy Use of Technology(SHUT) Clinic aims at promoting controlled and healthy use of technology. Services include screening for problematic use, relevant assessments and intervention strategies to regulate technology use and other forms of behavioural addictions. Several workshops are also conducted to promote awareness among parents, teachers and other practitioners."
+
+  utter_shut_clinic_appointment:
+    - text: "If you think you or anyone you know might require help realted to technology addiction, you can contact SHUT clinic on 08026685948 between Monday and Friday and ask for an appointment. SHUT clinic is operational on Tuesdays, Fridays and on Saturdays except the second Saturday of each month."
+
+  utter_shut_clinic_rehabilitation:
+    - text: "SHUT clinic does not have any facility for admission or rehabilitation. Sessions are carried out online and offline on a weekly basis. "
+
+  utter_digital_hygiene:
+    - text: "digital hygiene involves following a particular pattern for technology use. It includes taking frequent breaks, including physical activity, scheduling proper meals and adequate sleep as well as practicing digital fasting"
+
+  utter_shut_clinic_age_groups:
+    - text: "individuals across all age groups can seek help. Intervention strategies differ among different age groups, based on the nature and severity of technology use/addiction "
+
+  utter_cybersecurity_threats:
+    - text: "Cybersecurity threats are harmful activities that aim to steal, disrupt, or destroy data, critical systems, and digital life. Some examples of cybersecurity threats include: Malware Can come in many forms, such as viruses, worms, Trojan horses, and spyware. Malware can damage or disable a computer, steal information, or gain access to confidential data. Social engineering A social engineering attack can be difficult to stop, even for sophisticated cybersecurity systems. Phishing attacks are a type of social engineering attack that can appear on messaging apps like WhatsApp, Slack, Signal, and WeChat.Insider threats Can occur when employees or contractors have malicious intent or accidentally expose sensitive data. DDoS attacks A high threat to a network or device, DDoS attacks are becoming more dangerous as the number of attacks increases.IoT attacks One of the most common types of emerging cyber threats. In the first half of 2021, more than 1.5 billion IoT devices were breached and used for cyberattacks.Supply chain attacks When a hacker targets a supply chain, they can disrupt the supply of a good or service, compromising the operations of multiple businesses. Cloud vulnerabilities Attackers can exploit weaknesses in cloud environments to gain un permitted access, steal data, disrupt services, or launch other malicious activities."
+
+  utter_child_gamer_threats:
+    - text: "Phishing emails: Hackers deceive people pretending as legal and trustworthy entities to encourage the user to give out sensitive data, such as account credentials or financial information or to press malicious links containing malware. Malware: Malicious software designed to disrupt, damage, or gain unauthorized access to computer systems. Common malware seen in gaming platforms Trojans: Disguised as bona fide software, applications, or files to deceive users into downloading it Trojan-PSW (Password Stealing Ware): gathers victims’ credentials Trojan-Banker: steals payment data Trojan-GameThief: collects login information for gaming accounts Downloaders: The most common type of malware spread using the names of popular games, they can be used to load other threats onto devices Adware: displays unwanted pop-up ads on a user's device Ransomware encrypts files and demands money to unlock them Spyware: Spyware monitors a person’s online activity without their knowledge. it can then be sold to third parties, causing a breach of privacy. Grooming: Predators exploit children's vulnerabilities in virtual games by creating a false sense of trust, isolating them from family or friends and exploiting their trust.In-Game Scams: Scammers often target players through trading or bartering with promises of rare items, virtual currency, exclusive access, or other benefits in exchange for personal information. Account takeover: Gamers often spend a lot of time and money to build their online identity, making it a valuable asset that must be protected, hackers get hold of your credentials, and take over.Identity theft: Cyber-criminals collect personally identifiable information through chats or suspicious links to build profiles of their potential victims. Cyberbullying: Gamers can experience abuse or harassment that includes sending, posting, or sharing negative, harmful, false, private or mean content from other players."
+
+  utter_cyberbullying_signs:
+    - text: "While it can be difficult to detect cyberbullying, here are some common signs to watch for: Behavioral Changes: Withdrawal from friends and activities: Your child may become less social or avoid activities they used to enjoy. Changes in mood: They might experience sudden mood swings, anxiety, or depression. Difficulty sleeping or eating: Sleep disturbances and changes in appetite are common signs of stress. Avoidance of technology: Your child may try to limit their time online or using devices. Digital Evidence: Deleted or hidden messages: Look for deleted messages or a history of clearing browsing data.Sudden changes in online behavior: Notice if they're spending more time online or avoiding certain online communities. Unusual or threatening messages: Check for any messages that seem hostile, insulting, or threatening. Unwanted or strange gifts: Be aware of any unusual gifts or attention your child receives online. Physical Signs: Physical complaints: Headaches, stomachaches, or other physical ailments can be signs of stress. Changes in appearance: Notice if your child's appearance changes, such as neglecting their hygiene"
+
+  utter_child_cybercrime_victim:
+    - text: "If you think your child is a victim of cybercrime: Create a safe space for them to share their feelings. Be supportive. Encourage children to report any suspicious or harmful online activity. Document any evidence of cybercrime Contact the online platform or authorities to report the crime with the consent of the child Consider seeking professional help if necessary.Report on the National Cyber Crime Portal at https://www.cybercrime.gov.in Contact information:  NATIONAL CYBER CRIME HELPLINE NUMBER: 19"
+
+  utter_cyber_safety_practices:
+    - text: "Use strong passwords: Passwords that are unique, complex passwords. Avoid using the same passwords or sharing them. Use multi-factor authentication: This adds an extra layer of security to your sensitive data Always log out from your accounts Online Etiquette: Promote respectful behaviour and avoid engaging in toxic online interactions. Be Mindful of Scams: Don't click on links in spam emails or untrusted websites Expand shortened URLs and verify them before clicking Don't open attachments in spam emails Download files only from trustworthy sites. Protect your identity online: Avoid sharing personal or financial details from online conversations. Protect yourself from identity theft by shredding sensitive documents. Use secure Wi-Fi networks and avoid public hotspots. Manage your social media settings Keep your personal information private on social media to prevent cyber criminals from hacking your systems. Almost everything on the internet is traceable: Do not keep any photos of yours/ others which you don’t want others to see. Avoid downloading cracked software or any other illegal content, even if you are redirected to it from a legitimate website. Opt out of any bundled software offers Read the terms and conditions during software installation Backup your data: Backing up can help protect you from losing valuable work in case of cyberattack Use antivirus software: Helps to protect your data from cyber threats and dictionary attacks. regularly scan your system for unwanted programs Update regularly: Keep gaming systems and software up-to-date by regularly updating your software and operating system; can help prevent security holes that could lead to hacking."
+
+  utter_social_media_addiction:
+    - text: "Social media addiction is a behavioral addiction that involves compulsive and persistent use of social media despite experiencing personal distress or negative consequences."
+
+  utter_social_media_addiction_signs:
+    - text: "You may have Social Media Addiction if you find yourself often looking to use and log into your social media profiles often, and toure often preoccupied with thoughts of doing the same. You may also find yourself looking to use social media despite the negative consequences it may be having in your life."
+
+  utter_social_media_addiction_tips:
+    - text: "The first step to addressing social media addiction involves seeking professional help to discuss the effects the same has had on one's life. Furthermore, various interventions can help ensure that the addiction is kept under check. "
+
+  utter_social_media_fatigue:
+    - text: "Social Media Fatigue is a term that has come up in recent research to refer to the experience of tiredness, fatigue and burnout due to excessive social media use"
+
+  utter_social_media_addiction_treatment:
+    - text: "Treatment for Social Media Addiction can be done in a holistic manner. In some cases, it may require medication to manage factors such as mood, perosnality, or other comorbid factos. Treatment also involves therapeutic intervention and self help groups. "
+
+  utter_gaming_disorder_prevalence:
+    - text: "The prevalence of IGD varies across different countries and studies, but estimates suggest that around 1-3% of gamers may experience IGD symptoms. "
+
+  utter_gaming_disorder_treatment:
+    - text: "Treatment approaches include cognitive-behavioral therapy (CBT), family therapy, self-monitoring, activity scheduling, and relapse prevention strategies"
+
+  utter_gaming_addiction_components:
+    - text: "The components include preoccupation with gaming, withdrawal symptoms, tolerance (needing more gaming), and loss of control, among others"
+
+  utter_gaming_harm:
+    - text: "Excessive gaming can lead to social isolation, sleep disturbances, poor academic or work performance, and psychological distress."
+
+  utter_parents_gaming_disorder_prevention:
+    - text: "Parents can help prevent IGD by setting limits on gaming time, encouraging other activities, and fostering open communication about gaming habits"
+
+  utter_regulate_child_internet:
+    - text: "Start by setting clear boundaries around screen time. Establish device-free zones and times, like during meals and before bed. Engage in open conversations with your child about the impact of excessive technology use and encourage alternative activities, such as sports, hobbies, or family outings. It is essential to know the online content your child consumes and to discuss the importance of taking regular breaks. You might also want to implement parental control software so as to ensure that your child is getting enough sleep and exercise and carrying out his/her responsibilities"
+
+  utter_healthy_screen_time:
+    - text: "For younger children (under 6), it is recommended to limit screen time to 1 hour of high-quality programming per day. For older children, it is important to balance screen time with other activities like outdoor play, homework, and family time. Always ensure that technology use does not interfere with sleep and face-to-face interactions."
+
+  utter_suspect_child_addiction:
+    - text: "If you suspect your child is addicted to gaming or the internet, approach the issue calmly and observe their behavior for signs like neglecting responsibilities, withdrawing from family, or showing distress when not online. Initiate an open, non judgmental conversation to understand their perspective and how much time they are spending online. Set clear and consistent boundaries for screen time and encourage a balance between online and offline activities. If the behavior persists or worsens, consider seeking professional help to address potential underlying issues and develop healthy habits."
+
+  utter_model_healthy_tech_use:
+    - text: "Be mindful of your own screen time. Avoid checking your phone during family time and establish screen-free periods for everyone in the household. Children are more likely to follow if they see you balancing your own technology use"
+
+  utter_child_refuses_screen_time:
+    - text: "If your child refuses to cut down on screen time, approach the situation with patience and understanding. Start by having a calm discussion to understand why they are resistant, and explain the importance of balance in their life. Collaborate with your child to create a screen time plan that includes their input, which can help them feel more in control. Offering incentives, such as earning extra screen time for completing homework or chores, can also motivate them. Lead by example by demonstrating healthy screen use yourself. If the issue persists or begins to impact their well-being, consider seeking professional help from a specialist in behavioral addictions"
+
+  utter_porn_addiction:
+    - text: "Pornography addiction is the persistent, compulsive use of pornography despite experiencing personal distress or negative consequences."
+
+  utter_porn_addiction_potential:
+    - text: "Yes, pornography has the potential to become addictive due to its novelty and accessibility, similar to other behavioral addictions like gaming or gambling. However, not all individuals who watch pornography will become addicted; only some who have vulnerabilities like dysregulation, stress, coping styles, boredom, loneliness, or self-esteem issues are more likely to develop an addiction."
+
+  utter_porn_addiction_recognition:
+    - text: "Currently, pornography addiction is not recognized as a separate diagnosis but falls under Compulsive Sexual Behavior Disorder (CSBD) in the ICD-11."
+
+  utter_porn_addiction_signs:
+    - text: "Symptoms include excessive use, failed attempts to stop, neglecting responsibilities, withdrawal, feelings of guilt or shame, difficulties in educational or occupational life, and relationship issues such as unrealistic expectations, dissatisfaction, or intimacy problems."
+
+  utter_porn_addiction_relationships:
+    - text: "It can decrease intimacy, erode trust, and lead to conflicts or emotional distancing. This may stem from unrealistic expectations from the partner or sexual boredom within the relationship."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
