@@ -16,7 +16,7 @@ These instructions will guide you on setting up and running the Rasa chatbot loc
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Darshanhegdejaji/chatbot_shut_clinic.git
    cd <repository-name>
    
 2. Install the required dependencies:
